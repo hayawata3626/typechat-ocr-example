@@ -7,7 +7,6 @@ export interface Product {
   price: number;
   name: string;
   count: number;
-  currency: 'JPY' | 'USD';
   category: 'food' | 'drink' | 'snack' | 'other';
 }
 

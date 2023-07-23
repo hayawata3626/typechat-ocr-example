@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "sample": "tsx -r dotenv/config src/sample.ts",
+    "read": "tsx -r dotenv/config src/read.ts",
     "build": "tsc --declaration --outDir dist/",
     "start": "tsx -r dotenv/config src/index.ts",
     "start:dist": "yarn build && node -r dotenv/config dist/index.js",
@@ -28,9 +29,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@google-cloud/vision": "^3.1.4",
     "dotenv": "^16.0.3",
     "langchain": "^0.0.66",
-    "tesseract.js": "^4.1.1",
     "typechat": "^0.0.10"
   },
   "devDependencies": {
