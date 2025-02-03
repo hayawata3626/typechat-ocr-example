@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "sample": "tsx -r dotenv/config src/sample.ts",
+    "sample": "tsx -r dotenv/config src/index.ts",
     "read": "tsx -r dotenv/config src/read.ts",
     "build": "tsc --declaration --outDir dist/",
     "start": "tsx -r dotenv/config src/index.ts",
